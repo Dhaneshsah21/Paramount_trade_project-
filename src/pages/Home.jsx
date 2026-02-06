@@ -1,10 +1,22 @@
+import Hero from "../components/Hero"
+import Stats from "../components/Stats"
+import HowItWorksSection from "../components/HowItWorksSection"
+import FeaturedProducts from "../components/FeaturedProducts"
+import WhyParamountTrade from "../components/WhyParamountTrade"
+import FinalCTA from "../components/FinalCTA"
+import Footer from "../components/Footer"
+
 const Home = () => {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold">
-        Welcome to Paramount Trade
-      </h1>
-    </div>
+    <>
+      <Hero />
+      <Stats />
+      <HowItWorksSection />
+      <FeaturedProducts />
+      <WhyParamountTrade/>
+      <FinalCTA/>
+      <Footer/>
+    </>
   )
 }
 
